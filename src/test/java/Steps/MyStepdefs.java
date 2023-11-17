@@ -17,10 +17,10 @@ public class MyStepdefs extends LocatorRead {
 
     @And("Fill his correct {string} and correct {string}")
     public void fillHisCorrectAndCorrect(String arg0, String arg1) throws IOException {
-//        Hooks.page.type("", arg0, new Page.TypeOptions().setDelay(200));
-//        Hooks.page.type("", arg1, new Page.TypeOptions().setDelay(200));
-        Hooks.page.fill(read("username"), arg0);
-        Hooks.page.fill(read("password"), arg1);
+        Hooks.page.type(read("username"), arg0, new Page.TypeOptions().setDelay(200));
+        Hooks.page.type(read("password"), arg1, new Page.TypeOptions().setDelay(200));
+//        Hooks.page.fill(read("username"), arg0);
+//        Hooks.page.fill(read("password"), arg1);
         Hooks.page.click(read("loginBTN"));
     }
 
