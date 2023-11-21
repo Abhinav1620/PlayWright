@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="77.163" tests="9" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\akumar3\Documents\DoNotDelete\PlayWright\target\test-classes;C:\Users\akumar3\Documents\DoNotDelete\PlayWright\target\classes;C:\Users\akumar3\.m2\repository\com\microsoft\playwright\playwright\1.38.0\playwright-1.38.0.jar;C:\Users\akumar3\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\akumar3\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\akumar3\.m2\repository\com\microsoft\playwright\driver\1.38.0\driver-1.38.0.jar;C:\Users\akumar3\.m2\repository\com\microsoft\playwright\driver-bundle\1.38.0\driver-bundle-1.38.0.jar;C:\Users\akumar3\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\akumar3\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\akumar3\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\akumar3\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\akumar3\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\akumar3\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;C:\Users\akumar3\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\akumar3\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\akumar3\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\akumar3\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\akumar3\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\akumar3\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\akumar3\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\akumar3\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\akumar3\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\akumar3\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\akumar3\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\akumar3\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\akumar3\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\akumar3\.m2\repository\io\cucumber\cucumber-picocontainer\7.14.0\cucumber-picocontainer-7.14.0.jar;C:\Users\akumar3\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.16.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\akumar3\AppData\Local\Temp\surefire12695077957239786446\surefirebooter-20231121181107923_3.jar C:\Users\akumar3\AppData\Local\Temp\surefire12695077957239786446 2023-11-21T18-11-07_427-jvmRun1 surefire-20231121181107923_1tmp surefire_0-20231121181107923_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\akumar3\Documents\DoNotDelete\PlayWright\target\test-classes;C:\Users\akumar3\Documents\DoNotDelete\PlayWright\target\classes;C:\Users\akumar3\.m2\repository\com\microsoft\playwright\playwright\1.38.0\playwright-1.38.0.jar;C:\Users\akumar3\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\akumar3\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\akumar3\.m2\repository\com\microsoft\playwright\driver\1.38.0\driver-1.38.0.jar;C:\Users\akumar3\.m2\repository\com\microsoft\playwright\driver-bundle\1.38.0\driver-bundle-1.38.0.jar;C:\Users\akumar3\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\akumar3\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\akumar3\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\akumar3\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\akumar3\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\akumar3\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;C:\Users\akumar3\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\akumar3\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\akumar3\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\akumar3\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\akumar3\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\akumar3\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\akumar3\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\akumar3\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\akumar3\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\akumar3\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\akumar3\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\akumar3\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\akumar3\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\akumar3\.m2\repository\io\cucumber\cucumber-picocontainer\7.14.0\cucumber-picocontainer-7.14.0.jar;C:\Users\akumar3\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\akumar3"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.16.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\akumar3\Documents\DoNotDelete\PlayWright"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\akumar3\AppData\Local\Temp\surefire12695077957239786446\surefirebooter-20231121181107923_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.16.1+1-LTS-1"/>
+    <property name="user.name" value="akumar3"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\akumar3\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\akumar3\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.16.1"/>
+    <property name="user.dir" value="C:\Users\akumar3\Documents\DoNotDelete\PlayWright"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.16.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\app\akumar3\product\11.2.0\dbhome_1\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-18.0.1.1;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\akumar3\Documents\Maven\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Program Files\Java\jdk-11.0.16.1\bin;C:\Users\akumar3\AppData\Local\Android\Sdk\tools\bin;C:\Users\akumar3\AppData\Local\Android\Sdk\platform-tools;C:\Users\akumar3\AppData\Local\Android\Sdk\tools;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Users\akumar3\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\akumar3\AppData\Local\Programs\Python\Python311\;C:\Users\akumar3\AppData\Local\Microsoft\WindowsApps;C:\Users\akumar3\AppData\Roaming\npm;C:\Users\akumar3\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\akumar3\.dotnet\tools;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.16.1+1-LTS-1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Verify login functionality with correct username and correct password&quot;, &quot;Login&quot;](1)" classname="Runner" time="10.425">
+    <system-out><![CDATA[
+Scenario Outline: Verify login functionality with correct username and correct password # src/test/java/Feature/Login.feature:9
+  When User navigated to website                                                        # Steps.MyStepdefs.userNavigatedToWebsite()
+  And Fill his correct "standard_user" and correct "secret_sauce"                       # Steps.MyStepdefs.fillHisCorrectAndCorrect(java.lang.String,java.lang.String)
+  Then User should be able to see Homepage of the application.                          # Steps.MyStepdefs.userShouldBeAbleToSeeHomepageOfTheApplication()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify login functionality with incorrect username and correct password&quot;, &quot;Login&quot;](2)" classname="Runner" time="7.15">
+    <system-out><![CDATA[
+Scenario Outline: Verify login functionality with incorrect username and correct password # src/test/java/Feature/Login.feature:17
+  When User navigated to website                                                          # Steps.MyStepdefs.userNavigatedToWebsite()
+  And Fill his correct "standard_use" and correct "secret_sauce"                          # Steps.MyStepdefs.fillHisCorrectAndCorrect(java.lang.String,java.lang.String)
+  Then an error should appear in front of user                                            # Steps.Login.anErrorShouldAppearInFrontOfUser()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify login functionality with incorrect username and incorrect password&quot;, &quot;Login&quot;](3)" classname="Runner" time="6.915">
+    <system-out><![CDATA[
+Scenario Outline: Verify login functionality with incorrect username and incorrect password # src/test/java/Feature/Login.feature:25
+  When User navigated to website                                                            # Steps.MyStepdefs.userNavigatedToWebsite()
+  And Fill his correct "standard_use" and correct "secret_sauc"                             # Steps.MyStepdefs.fillHisCorrectAndCorrect(java.lang.String,java.lang.String)
+  Then an error should appear in front of user                                              # Steps.Login.anErrorShouldAppearInFrontOfUser()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify login functionality with correct username and incorrect password&quot;, &quot;Login&quot;](4)" classname="Runner" time="7.217">
+    <system-out><![CDATA[
+Scenario Outline: Verify login functionality with correct username and incorrect password # src/test/java/Feature/Login.feature:33
+  When User navigated to website                                                          # Steps.MyStepdefs.userNavigatedToWebsite()
+  And Fill his correct "standard_user" and correct "secret_sauc"                          # Steps.MyStepdefs.fillHisCorrectAndCorrect(java.lang.String,java.lang.String)
+  Then an error should appear in front of user                                            # Steps.Login.anErrorShouldAppearInFrontOfUser()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Check that user is able to order an product from the application&quot;, &quot;Check order functionality&quot;](5)" classname="Runner" time="10.346">
+    <system-out><![CDATA[
+Scenario Outline: Check that user is able to order an product from the application   # src/test/java/Feature/Order.feature:10
+  When User navigated to website                                                     # Steps.MyStepdefs.userNavigatedToWebsite()
+  And Fill his correct "standard_user" and correct "secret_sauce"                    # Steps.MyStepdefs.fillHisCorrectAndCorrect(java.lang.String,java.lang.String)
+  And selects his product which he want to order                                     # Steps.Order.selectsHisProductWhichHeWantToOrder()
+  Then user will be able to order his product after filling his delivery information # Steps.Order.userWillBeAbleToOrderHisProductAfterFillingHisDeliveryInformation()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;check that user is able to make a successful order for multiple selected products&quot;, &quot;Check order functionality&quot;](6)" classname="Runner" time="9.475">
+    <system-out><![CDATA[
+Scenario Outline: check that user is able to make a successful order for multiple selected products # src/test/java/Feature/Order.feature:20
+  When User navigated to website                                                                    # Steps.MyStepdefs.userNavigatedToWebsite()
+  And Fill his correct "standard_user" and correct "secret_sauce"                                   # Steps.MyStepdefs.fillHisCorrectAndCorrect(java.lang.String,java.lang.String)
+  And selects his products which he want to order                                                   # Steps.MultiOrder.selectsHisProductsWhichHeWantTooOrder()
+  Then user will be able to order his product after filling his delivery information                # Steps.Order.userWillBeAbleToOrderHisProductAfterFillingHisDeliveryInformation()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Check that user is able to get an error when user didn&apos;t provide firstname under delivery information page&quot;, &quot;Check order functionality&quot;](7)" classname="Runner" time="8.128">
+    <system-out><![CDATA[
+Scenario Outline: Check that user is able to get an error when user didn't provide firstname under delivery information page # src/test/java/Feature/Order.feature:29
+  When User navigated to website                                                                                             # Steps.MyStepdefs.userNavigatedToWebsite()
+  And Fill his correct "standard_user" and correct "secret_sauce"                                                            # Steps.MyStepdefs.fillHisCorrectAndCorrect(java.lang.String,java.lang.String)
+  And selects his product which he want to order                                                                             # Steps.Order.selectsHisProductWhichHeWantToOrder()
+  Then user should be able to an error if don't provide any firstname under delivery information page                        # Steps.InformationPage.userShouldBeAbleToAnErrorIfDonProvideAnyFirstnameUnderDeliveryInformationPage()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Check that user is able to get an error when user didn&apos;t provide lastname under delivery information page&quot;, &quot;Check order functionality&quot;](8)" classname="Runner" time="8.095">
+    <system-out><![CDATA[
+Scenario Outline: Check that user is able to get an error when user didn't provide lastname under delivery information page # src/test/java/Feature/Order.feature:38
+  When User navigated to website                                                                                            # Steps.MyStepdefs.userNavigatedToWebsite()
+  And Fill his correct "standard_user" and correct "secret_sauce"                                                           # Steps.MyStepdefs.fillHisCorrectAndCorrect(java.lang.String,java.lang.String)
+  And selects his product which he want to order                                                                            # Steps.Order.selectsHisProductWhichHeWantToOrder()
+  Then user should be able to an error if don't provide any lastname under delivery information page                        # Steps.InformationPage.userShouldBeAbleToAnErrorIfDonTProvideAnyLastnameUnderDeliveryInformationPage()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Check that user is able to get an error when user didn&apos;t provide ZipCode under delivery information page&quot;, &quot;Check order functionality&quot;](9)" classname="Runner" time="8.104">
+    <system-out><![CDATA[
+Scenario Outline: Check that user is able to get an error when user didn't provide ZipCode under delivery information page # src/test/java/Feature/Order.feature:47
+  When User navigated to website                                                                                           # Steps.MyStepdefs.userNavigatedToWebsite()
+  And Fill his correct "standard_user" and correct "secret_sauce"                                                          # Steps.MyStepdefs.fillHisCorrectAndCorrect(java.lang.String,java.lang.String)
+  And selects his product which he want to order                                                                           # Steps.Order.selectsHisProductWhichHeWantToOrder()
+  Then user should be able to an error if don't provide any ZipCode under delivery information page                        # Steps.InformationPage.userShouldBeAbleToAnErrorIfDonTProvideAnyZipCodeUnderDeliveryInformationPage()
+]]></system-out>
+  </testcase>
+</testsuite>
