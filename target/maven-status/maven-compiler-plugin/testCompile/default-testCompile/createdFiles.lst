@@ -1,0 +1,7 @@
+Steps\InformationPage.class
+Steps\Login.class
+Steps\Hooks.class
+Steps\MultiOrder.class
+Steps\MyStepdefs.class
+Runner.class
+Steps\Order.class
